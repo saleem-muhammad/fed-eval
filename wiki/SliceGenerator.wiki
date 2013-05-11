@@ -1,9 +1,8 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Slice Generator =
 
-Add your content here.
-
+A tool used to create slices of a given dataset based  with discrepancy 
 
 = Details =
 
