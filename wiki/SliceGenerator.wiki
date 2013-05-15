@@ -2,11 +2,8 @@
 
 = Slice Generator =
 
-A tool used to create slices of a given dataset based  with discrepancy 
+A tool used to create slices of a given dataset with discrepancy. The code can be downloaded from the Downloads page. 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+input format : <sourceDataset> <number of slices> <discrepancy> <number of slices to be duplicated> <outputDirectory>
