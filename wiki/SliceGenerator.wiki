@@ -6,4 +6,4 @@ A tool used to create slices of a given dataset with discrepancy. The code can b
 
 = Details =
 
-input format : <sourceDataset> <number of slices> <discrepancy> <number of slices to be duplicated> <outputDirectory>
+input format : "<sourceDataset> <number of slices> <discrepancy> <number of slices to be duplicated> <outputDirectory>"
