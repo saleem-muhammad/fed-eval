@@ -9,4 +9,4 @@ The input format for the slice generation is :
 
 e.g 
 
-<c://datadump/disesame.nt> <10> <1000> <2> <c://diseasome/slices/>   will create 10 slices of the "diseasome.nt" with discrepancy of 1000  triples and 2 random selected slices are duplicated among the remaining 8 slices.  This tool only require a java run time library such as JRE6. 
+<c://datadump/disesame.nt> < 10 > < 1000 > < 2 > < c://diseasome/slices/>   will create 10 slices of the "diseasome.nt" with discrepancy of 1000  triples and 2 random selected slices are duplicated among the remaining 8 slices.  This tool only require a java run time library such as JRE6. 
