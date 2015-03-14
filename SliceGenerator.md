@@ -1,0 +1,10 @@
+# Slice Generator #
+
+[Slice Generator](https://code.google.com/p/fed-eval/downloads/detail?name=SliceGenerator.java&can=2&q=/) is a tool used to create slices (with various duplicates) of a given RDF dataset (N Triples format only) with discrepancy. Where discrepancy is define as the difference (in terms of number of triples) between the largest and smallest slice. If the value is smaller than 1, then the discrepancy is assumed to express the fragment of the  total size of the input RDF dataset. Thus, 0.2 leads to a discrepancy  value equal to 20% of the size of the input RDF dataset. The output slices are also in N Triples format.
+
+The input format for the slice generation is :
+<RDFdataset (.nt only)> <number of slices (int)> < discrepancy among slices > <number of duplicate slices (int)> < outputDirectory >
+
+e.g
+
+<c://datadump/disesame.nt> < 10 > < 1000 > < 2 > < c://diseasome/slices/>   will create 10 slices of the "diseasome.nt" with discrepancy of 1000  triples and 2 random selected slices are duplicated among the remaining 8 slices.  This tool only require a java run time library such as JRE6.
